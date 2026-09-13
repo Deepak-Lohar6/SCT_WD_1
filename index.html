@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSync — Intelligent Team Execution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">❖</span> NovaSync
+            </a>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#capabilities">Capabilities</a>
+                <a href="#workflow">Workflow</a>
+                <a href="#plans">Plans</a>
+                <a href="#connect">Connect</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="btn btn-text" id="loginBtn">Sign In</button>
+                <button class="btn btn-primary" id="getStartedNavBtn">Launch App</button>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="status-pill">
+                <span class="status-dot"></span> Nova Engine v3.4 Active
+            </div>
+            <h1>Engineered for Autonomous Workflow Execution</h1>
+            <p>NovaSync dynamically aligns team priorities, automates cross-platform handoffs, and optimizes deliverable timelines in real time.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-large" id="trialBtn">Start 14-Day Access</button>
+                <button class="btn btn-secondary btn-large" id="demoBtn">View Interactive Preview</button>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">99.8%</span>
+                    <span class="stat-label">On-Time Sprint Completion</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">4.2h</span>
+                    <span class="stat-label">Daily Time Saved / User</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">120+</span>
+                    <span class="stat-label">Native Integrations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="capabilities" id="capabilities">
+        <div class="container">
+            <div class="section-title">
+                <h2>Built for High-Velocity Teams</h2>
+                <p>Eliminate manual status updates and context switching with native automation.</p>
+            </div>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Predictive Task Routing</h3>
+                    <p>Algorithmically assigns tickets based on developer capacity, expertise, and historical velocity.</p>
+                    <button class="card-link" data-action="Predictive Task Routing">Explore Routing Rules &rarr;</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Conflict Prevention</h3>
+                    <p>Detects pipeline bottlenecks and dependency risks before they stall active deployment branches.</p>
+                    <button class="card-link" data-action="Conflict Prevention">View Risk Detection &rarr;</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">💎</div>
+                    <h3>Live Telemetry</h3>
+                    <p>Unified executive dashboard displaying actual output metrics, resource allocation, and velocity health.</p>
+                    <button class="card-link" data-action="Live Telemetry">Inspect Dashboard &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="workflow" id="workflow">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tailored for Your Entire Organization</h2>
+                <p>Custom execution pipelines configured for your domain expertise.</p>
+            </div>
+            <div class="grid-3">
+                <div class="workflow-box">
+                    <span class="tag">Engineering</span>
+                    <h3>Automated PR Triage</h3>
+                    <p>Direct code review assignments and track CI/CD status right from your unified queue.</p>
+                </div>
+                <div class="workflow-box">
+                    <span class="tag">Product & Design</span>
+                    <h3>Interactive Canvas Sync</h3>
+                    <p>Sync design feedback and design system components automatically into developer task backlogs.</p>
+                </div>
+                <div class="workflow-box">
+                    <span class="tag">Operations</span>
+                    <h3>Resource Balancing</h3>
+                    <p>Rebalance workload across cross-functional pods without micromanaging daily schedules.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plans" id="plans">
+        <div class="container">
+            <div class="section-title">
+                <h2>Scalable Infrastructure Plans</h2>
+                <p>Select the baseline tier tailored to your team scale.</p>
+            </div>
+            <div class="pricing-wrapper">
+                <div class="plan-card">
+                    <h3>Developer</h3>
+                    <p class="price">$15 <span>/ seat / mo</span></p>
+                    <ul class="plan-features">
+                        <li>✓ Up to 10 workspace members</li>
+                        <li>✓ Core task routing engine</li>
+                        <li>✓ 25GB Secure Cloud Storage</li>
+                    </ul>
+                    <button class="btn btn-outline plan-btn" data-plan="Developer">Deploy Starter</button>
+                </div>
+                <div class="plan-card featured">
+                    <div class="featured-tag">Recommended</div>
+                    <h3>Enterprise Velocity</h3>
+                    <p class="price">$45 <span>/ seat / mo</span></p>
+                    <ul class="plan-features">
+                        <li>✓ Unlimited workspace seats</li>
+                        <li>✓ Full predictive AI scheduling</li>
+                        <li>✓ Unlimited API & Webhook integrations</li>
+                    </ul>
+                    <button class="btn btn-primary plan-btn" data-plan="Enterprise Velocity">Deploy Enterprise</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="connect" id="connect">
+        <div class="container">
+            <div class="section-title">
+                <h2>Connect With Our Solutions Team</h2>
+                <p>Ready to modernize your team workflow? Leave a message for custom deployment inquiries.</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Work Email" required>
+                </div>
+                <div class="form-row">
+                    <textarea id="message" rows="5" placeholder="Tell us about your team setup..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 NovaSync Technologies Inc. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" data-footer="Privacy Policy">Privacy Policy</a>
+                <a href="#" data-footer="Terms of Service">Terms of Service</a>
+                <a href="#" data-footer="Status Page">System Status</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <h3 id="modalTitle">NovaSync Action</h3>
+            <p id="modalBody">Details placeholder text.</p>
+            <button class="btn btn-primary" id="modalConfirmBtn">Acknowledge</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
