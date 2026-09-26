@@ -39,6 +39,7 @@ This project fulfills **Task 01: Responsive Landing Page** for the **SkillCraft 
 ├── index.html    # Core markup structure
 ├── style.css     # Styling, theme rules, and media queries
 └── script.js    # Interactive features and dynamic UI logic
+```
 
 ---
 
