@@ -39,3 +39,9 @@ This project fulfills **Task 01: Responsive Landing Page** for the **SkillCraft 
 ├── index.html    # Core markup structure
 ├── style.css     # Styling, theme rules, and media queries
 └── script.js    # Interactive features and dynamic UI logic
+
+---
+
+## 🌐 Live Demo
+
+<a href="https://deepak-lohar6.github.io/SCT_WD_1/" target="_blank">Click here to view the live app</a>
